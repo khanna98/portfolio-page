@@ -1,0 +1,142 @@
+/* GENERAL STYLING */
+body{
+    padding: 20px 0px;
+    font: 300 14px "Lato",sans-serif;
+    color: #666756;
+    background: #fff;
+}
+hr{
+    border-top: 4px solid #bbb;
+}
+
+.pro-avatar{
+    width: 150px;
+    height: 150px;
+}
+
+/* TEXT STYLING */
+
+.thin{
+    font-weight: 200;
+}
+.profile{
+    margin-top: 10px;
+    text-align: right;
+    text-transform: uppercase;
+}
+.name{
+    margin: 0;
+    font-size: 4em;
+}
+.job{
+    margin: 5px;
+    font-size: 1em;
+}
+
+/* PROJECTS */
+
+.featured-projects{
+    color: #bbb;
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+.work{
+    text-align: center;
+}
+.work-title{
+    color: #666756;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.work-link{
+    font-size: 1em;
+    color: #666756;
+}
+
+/* FOOTER */
+.footer {
+    margin-top: 50px;
+    font-size: 1.143em;
+    font-weight: 400;
+    text-align: center;
+  }
+  .copyright
+  {
+    position: relative;
+    top: 2px;
+    display: inline-block;
+    font-size: 1em;
+    transform: scale(0.9);
+}
+
+
+ /* Making the webpage responsive */
+
+@media only screen and (max-width: 992px)
+{
+    .profile{
+        text-align: center;
+    }
+    .pro-avatar{
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+@media only screen and (max-width: 768px)
+{
+    .profile{
+        text-align: center;
+    }
+    .pro-avatar{
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+@media only screen and (max-width: 600px)
+{
+    .profile{
+        text-align: center;
+    }
+    .pro-avatar{
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .name{
+        font-size: 2.8em;
+    }
+}
+
+@media only screen and (max-width: 480px)
+{
+    .profile{
+        text-align: center;
+    }
+    .pro-avatar{
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .name{
+        font-size: 2.8em;
+    }
+}
+
+@media only screen and (max-width: 360px)
+{
+    .profile{
+        text-align: center;
+    }
+    .pro-avatar{
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .name{
+        font-size: 2.8em;
+    }
+}
